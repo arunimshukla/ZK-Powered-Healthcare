@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1e1e2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle">
+    Zero-Knowledge Proofs in Healthcare
+  </text>
+
+  <!-- Implementation Flow -->
+  <g transform="translate(0, 100)">
+    <!-- Core Components -->
+    <rect x="50" y="50" width="200" height="100" rx="10" fill="#2d4263" stroke="#64ffda" stroke-width="2"/>
+    <text x="150" y="90" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Health DIDs</text>
+    <text x="150" y="120" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">Digital Identity Layer</text>
+
+    <rect x="300" y="50" width="200" height="100" rx="10" fill="#2d4263" stroke="#64ffda" stroke-width="2"/>
+    <text x="400" y="90" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">ZK Circuits</text>
+    <text x="400" y="120" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">Privacy Computation</text>
+
+    <rect x="550" y="50" width="200" height="100" rx="10" fill="#2d4263" stroke="#64ffda" stroke-width="2"/>
+    <text x="650" y="90" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Verification Layer</text>
+    <text x="650" y="120" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">Provider Integration</text>
+
+    <!-- Connecting Arrows -->
+    <path d="M250 100 L300 100" stroke="#64ffda" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M500 100 L550 100" stroke="#64ffda" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Challenges Section -->
+    <g transform="translate(0, 200)">
+      <!-- Technical Challenges -->
+      <rect x="50" y="50" width="200" height="150" rx="10" fill="#372963" stroke="#ff79c6" stroke-width="2"/>
+      <text x="150" y="80" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Technical</text>
+      <text x="150" y="110" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Mobile Scaling</text>
+      <text x="150" y="130" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Data Standards</text>
+      <text x="150" y="150" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Key Management</text>
+
+      <!-- Regulatory Challenges -->
+      <rect x="300" y="50" width="200" height="150" rx="10" fill="#372963" stroke="#ff79c6" stroke-width="2"/>
+      <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Regulatory</text>
+      <text x="400" y="110" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• HIPAA Compliance</text>
+      <text x="400" y="130" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Data Privacy Laws</text>
+      <text x="400" y="150" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Medical Licensing</text>
+
+      <!-- Adoption Challenges -->
+      <rect x="550" y="50" width="200" height="150" rx="10" fill="#372963" stroke="#ff79c6" stroke-width="2"/>
+      <text x="650" y="80" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Adoption</text>
+      <text x="650" y="110" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Provider Buy-in</text>
+      <text x="650" y="130" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• Patient Education</text>
+      <text x="650" y="150" font-family="Arial, sans-serif" font-size="12" fill="#a8b2d1" text-anchor="middle">• System Integration</text>
+    </g>
+  </g>
+
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64ffda"/>
+    </marker>
+  </defs>
+</svg>
